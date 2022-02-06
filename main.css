@@ -12,6 +12,7 @@ body {
 
 header {
   background: #04702d;
+  overflow: auto;
 }
 
 header::after {
@@ -112,9 +113,7 @@ ul.styrka li {
   margin-left: 2em;
 }
 
-section.styrka img {
-  display: none;
-}
+
 
 section.Ref {
   background-color: #065f21;
@@ -174,17 +173,119 @@ section.om.mig h1, section.om.mig p {
 section.om.mig img {
   width: 75em;
   height: 75em;
-  border: 5px solid white;
+  border: 5px solid rgb(7, 7, 7);
   border-radius: 0%;
   margin-top: -4,5em;
 }
+
+#stor{
+  display: none;
+}
+section.mina{
+  background-color: rgb(114, 77, 148);
+}
+div.hehe{
+  padding: 75px;
+ 
+}
+
+label{
+  font-size: 35px;
+}
+#knapp{
+  text-align: center;
+}
+button{
+  height: 45px;
+  width: 45px;
+}
+
+#skämt{
+  display: block;
+  width: 375px;
+  height: auto;
+  margin: auto;
+}
+#btnID{
+  height: 250px;
+  width: 250px;
+  font-size: 45px;
+  color: #ffffff;
+  background-color: #0e5705;
+}
+#wanted{
+  display: block;
+  width: 400px;
+  height: 600px;
+}
+
+
+
+
+
+
+
 /*# sourceMappingURL=main.css.map */
 
-@media (max-width:500px){
-  
-  
-
-
-
+@media (max-width:580px){
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    
 
   }
+  header{
+    background-color: rgb(247, 247, 247);
+  }
+
+  nav a {
+    color: #035e18;
+    
+    }
+
+    #king {
+      color: #035e18;
+      padding: 1,5em;
+      margin: 10px;
+    }
+    body{
+      background-color: black;
+    }
+    
+    .hero{
+      color: rgb(253, 253, 253);
+    }
+    section.styrka {
+      background-color: white;
+      color: black;
+    }
+    h2 {
+      float: initial;
+      color: black;
+    }
+  #jaa{
+    font-size: 40px;
+    }
+
+    label{
+      font-size: 25px;
+    }
+
+    section.om.mig img {
+      width: 100%;
+      height: auto;
+      
+    }
+    #btnID{
+      height: 125px;
+      width: 125px;
+      font-size: 25px;
+      color: #ffffff;
+      background-color: #0e5705;
+    }
+
+    
+    
+    }
+    
+    
